@@ -1,4 +1,4 @@
-package dader.hongfei.GazeTrackingStreaming
+package dader.hongfei.gazetrackingstream
 
 import akka.actor.Actor
 import akka.actor.IO
