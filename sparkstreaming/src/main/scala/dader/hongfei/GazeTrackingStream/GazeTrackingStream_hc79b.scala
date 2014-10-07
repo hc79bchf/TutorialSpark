@@ -1,4 +1,4 @@
-package dader.hongfei.GTstreaming
+package dader.hongfei.GazeTrackingStreaming
 
 import akka.actor.Actor
 import akka.actor.IO
@@ -51,7 +51,7 @@ import org.apache.hadoop.io.compress.DefaultCodec
  *    `$ bin/run-example org.apache.spark.examples.streaming.NetworkWordCount localhost 9999`
  */
  
-object NetworkStream_hc79b {
+object GazeTrackingStream_hc79b {
 
   def findfixation(input: String, dist_user_moniter: Int, maxAngularspeed: Int, moniterwidth: Int, moniterreswidth: Int) = {
   	val timeElapsed = 0.5
